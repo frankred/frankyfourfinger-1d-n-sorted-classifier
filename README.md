@@ -22,7 +22,6 @@ var distance_function = function (x1, x2) {
 
 var franky = new FrankyFourFinger(data, min_distance, min_cluster_size, distance_function);
 var clusters = franky.getClusters();
-
 /* [
      [0,1,2,3,4,5,6],
      [390,393,396,399,402,405],
@@ -30,5 +29,10 @@ var clusters = franky.getClusters();
      [999]
 ] */
 
-// With min_cluster_size of 3: [[0,1,2,3,4,5,6],[390,393,396,399,402,405]]
+/* With min_cluster_size of '3'
+  [
+     [0,1,2,3,4,5,6],
+     [390,393,396,399,402,405]
+] */
+
 ```

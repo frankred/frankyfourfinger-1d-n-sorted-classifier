@@ -2,7 +2,7 @@ frankyfourfinger-1d-n-sorted-classification
 ===========================================
 
 FrankyFourFinger is a fast and simple 1D-classifier that creates a clustered result.
-You can define the minimum distance where a new cluster is created, and the minimum cluster size. If a cluster has less then ```min_distance``` elements, the cluster will not occur on the result set.
+You can define the minimum distance of two points where a new cluster is created, and the minimum cluster size. If a cluster has less then ```min_distance``` elements, the cluster will not occur on the result set.
 
 
 ```javascript
@@ -22,5 +22,13 @@ var distance_function = function (x1, x2) {
 
 var franky = new FrankyFourFinger(data, min_distance, min_cluster_size, distance_function);
 var clusters = franky.getClusters();
-// [[0,1,2,3,4,5,6],[390,393,396,399,402,405],[414,422],[999]]
+
+/* [
+     [0,1,2,3,4,5,6],
+     [390,393,396,399,402,405],
+     [414,422],
+     [999]
+] */
+
+// With min_cluster_size of 3: [[0,1,2,3,4,5,6],[390,393,396,399,402,405]]
 ```

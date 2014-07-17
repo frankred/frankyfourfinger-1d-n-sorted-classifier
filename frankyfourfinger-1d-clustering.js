@@ -36,7 +36,7 @@ FrankyFourFinger.prototype.getClusters = function () {
             break;
         }
 
-        if (this.distanceFunction(current, next) <= 8) {
+        if (this.distanceFunction(current, next) <= this.epsilon) {
             current_cluster.push(next);
         } else {
             if (current_cluster.length < this.min_cluster_size) {

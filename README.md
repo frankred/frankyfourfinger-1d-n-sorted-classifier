@@ -1,7 +1,7 @@
 FrankyFourFinger a 1d-classification for a sorted array
 ===========================================
 
-http://www.tradebit.com/usr/rossmoore/pub/9002/7083682_CanvasPosterize-Snatch-FrankyFourFingers640.jpg
+![Franky Four Finger](http://www.tradebit.com/usr/rossmoore/pub/9002/7083682_CanvasPosterize-Snatch-FrankyFourFingers640.jpg "Franky Four Finger")
 
 FrankyFourFinger is a fast and simple 1D-classifier that creates a clustered result.
 You can define the minimum distance of two points where a new cluster is created, and the minimum cluster size. If a cluster has less then ```min_distance``` elements, the cluster will not occur on the result set.

@@ -9,7 +9,6 @@ var data = [0, 1, 2, 3, 4, 5, 6, 390, 393, 396, 399, 402, 405, 414, 422, 999];
 ```
 
 ```javascript
-// Dataset
 // Create classifier: Keep all clusters
 var franky = new FrankyFourFinger(data, 8, 0, function (x1, x2) {
     return Math.abs(x1 - x2);

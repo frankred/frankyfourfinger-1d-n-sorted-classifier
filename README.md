@@ -1,4 +1,4 @@
-FrankyFourFinger a 1d-classification for a sorted array
+FrankyFourFinger a 1d-classification for sorted arrays
 ===========================================
 
 ![Franky Four Finger](http://www.tradebit.com/usr/rossmoore/pub/9002/7083682_CanvasPosterize-Snatch-FrankyFourFingers640.jpg "Franky Four Finger")
